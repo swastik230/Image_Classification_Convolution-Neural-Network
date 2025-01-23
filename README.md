@@ -21,16 +21,36 @@ CNN Classification Part:-1 Series
 
   -The loss function (Cross Entropy Loss) and optimizer (Adam) are defined.
 
-  e>Training Loop:-
+ e>Training Loop:-
 
   -The model is trained for 10 epochs. For each batch, gradients are reset, a forward pass is performed, loss is calculated, and weights are updated.
 
-  f>Evaluation:-
+ f>Evaluation:-
 
   -The model's performance is evaluated on the test dataset, and the accuracy is printed.
 
 
 CNN Classification Part:-2 Series
+
+a>Imports:-The necessary libraries are imported, including TensorFlow and Keras layers/models.
+ 
+b>Data Loading:-
+
+ -The CIFAR-10 dataset is loaded using cifar10.load_data().
+
+ -The pixel values of the images are normalized to the range [0, 1] by dividing by 255.0.
+
+c>Model Compilation and Training:-
+
+ -The model is compiled with the Adam optimizer and categorical crossentropy loss function.
+
+ -The model is trained for 10 epochs with a batch size of 64, and validation data is provided.
+
+ d>Model Evaluation:-
+
+ -The model's performance is evaluated on the test dataset, and the accuracy is printed.
+
+ 
 
   
 
