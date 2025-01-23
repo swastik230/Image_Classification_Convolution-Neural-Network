@@ -5,3 +5,5 @@ CNN classification part:-1 series
 
   b>Data Loading:-
    The CIFAR-10 dataset is loaded and transformed. The images are converted to tensors and normalized.
+
+   Data loaders are created for both the training and test datasets.
